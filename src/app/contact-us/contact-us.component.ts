@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
-import { FooterComponent } from '../footer/footer.component';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-contact-us',
-  imports: [FooterComponent,RouterOutlet],
+  imports: [],
   templateUrl: './contact-us.component.html',
   styleUrl: './contact-us.component.css'
 })
